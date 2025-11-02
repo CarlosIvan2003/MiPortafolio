@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio · Sofía Martínez — Arquitecta de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar__brand">
+          <span class="sidebar__logo" aria-hidden="true">∴</span>
+          <div>
+            <p class="sidebar__name">Sofía Martínez</p>
+            <p class="sidebar__role">Arquitecta de Software</p>
+          </div>
+        </div>
+        <p class="sidebar__bio">
+          Diseño ecosistemas digitales que combinan estrategia de producto,
+          software sostenible y experiencias impecables para equipos globales.
+        </p>
+        <nav class="sidebar__nav" aria-label="Secciones principales">
+          <a href="#inicio">Inicio</a>
+          <a href="#manifiesto">Manifiesto</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#metodo">Método</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="sidebar__status">
+          <span class="status-dot" aria-hidden="true"></span>
+          Abierta a colaboraciones estratégicas 2024 Q3
+        </div>
+        <div class="sidebar__links">
+          <a href="mailto:sofia.dev@ejemplo.com">sofia.dev@ejemplo.com</a>
+          <a href="https://www.linkedin.com/in/sofia-martinez">LinkedIn</a>
+          <a href="https://github.com/sofia-martinez">GitHub</a>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section id="inicio" class="section hero">
+          <div class="hero__intro">
+            <p class="hero__eyebrow">Estrategia · Código · Liderazgo</p>
+            <h1 class="hero__title">
+              Conecto decisiones de negocio con ingeniería impecable para crear
+              productos que perduran.
+            </h1>
+            <p class="hero__description">
+              Durante la última década he liderado arquitecturas cloud-native,
+              construido plataformas multi-tenant y guiado equipos en etapas de
+              hypergrowth. Mi obsesión: experiencias medibles, resilientes y
+              elegantes.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#proyectos">Explorar casos</a>
+              <a class="btn btn--ghost" href="#contacto">Solicitar sesión</a>
+            </div>
+          </div>
+          <div class="hero__stack">
+            <dl class="hero__stats">
+              <div>
+                <dt>Años liderando ingeniería</dt>
+                <dd>10+</dd>
+              </div>
+              <div>
+                <dt>Equipos escalados</dt>
+                <dd>6 squads</dd>
+              </div>
+              <div>
+                <dt>Disponibilidad</dt>
+                <dd>Remoto · Híbrido</dd>
+              </div>
+            </dl>
+            <div class="hero__terminal" aria-hidden="true">
+              <div class="terminal__header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="terminal__title">deploy.sh</span>
+              </div>
+              <div class="terminal__body">
+                <p><span class="prompt">sofiam@orion</span>:~$ npm run ship</p>
+                <p>▶ Compilando módulos con métricas activas...</p>
+                <p>✔ Tests críticos <span class="tag">97% pass</span></p>
+                <p>✔ Observabilidad lista <span class="tag">Grafana</span></p>
+                <p>✔ Entrega continua <span class="tag">GitOps</span></p>
+                <p class="terminal__cursor">▍ desplegando experiencia premium</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="manifiesto" class="section manifesto">
+          <div class="section__header">
+            <h2>Manifiesto de ingeniería</h2>
+            <p>Principios que guían cada decisión técnica y humana.</p>
+          </div>
+          <div class="manifesto__grid">
+            <article class="manifesto__card">
+              <h3>Sistemas centrados en personas</h3>
+              <p>
+                La arquitectura inicia con conversaciones. Transformo objetivos
+                de negocio en journeys medibles, alineando equipos de producto,
+                diseño e ingeniería desde el día cero.
+              </p>
+            </article>
+            <article class="manifesto__card">
+              <h3>Elegancia operativa</h3>
+              <p>
+                Plataformas observables, automatizadas y listas para auditorías.
+                Desde IaC hasta flujos de release sin fricción, la excelencia
+                técnica es un hábito, no un objetivo aislado.
+              </p>
+            </article>
+            <article class="manifesto__card">
+              <h3>Aprendizaje continuo</h3>
+              <p>
+                Creo espacios donde refactorizar es tan celebrable como lanzar.
+                Mentoría, pair programming y cultura de experimentación para
+                mantenernos relevantes y curiosos.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experiencia" class="section experience">
+          <div class="section__header">
+            <h2>Trayectoria</h2>
+            <p>Escenarios donde convertí complejidad en claridad.</p>
+          </div>
+          <div class="experience__timeline">
+            <article>
+              <header>
+                <p class="experience__period">2021 — Actualidad · Orion Labs</p>
+                <h3>Principal Engineer · Plataforma Conversacional</h3>
+              </header>
+              <p>
+                Orquesté un rediseño modular basado en arquitectura orientada a
+                eventos. Redujimos tiempos de respuesta de 800&nbsp;ms a 140&nbsp;ms y
+                habilitamos personalización en tiempo real para 5.4M usuarios.
+              </p>
+              <ul>
+                <li>Implementación de data mesh con contratos observables.</li>
+                <li>Mentoría a 12 ingenieros distribuidos en 4 husos horarios.</li>
+              </ul>
+            </article>
+            <article>
+              <header>
+                <p class="experience__period">2017 — 2021 · Nebula Systems</p>
+                <h3>Engineering Manager · Core Banking</h3>
+              </header>
+              <p>
+                Lideré la transición de monolitos a microservicios seguros,
+                certificando PCI-DSS en tiempo récord y lanzando features bisemanales.
+              </p>
+              <ul>
+                <li>Pipeline GitOps con ArgoCD y políticas progresivas.</li>
+                <li>OKRs técnicos que elevaron SLA crítico a 99.97%.</li>
+              </ul>
+            </article>
+            <article>
+              <header>
+                <p class="experience__period">2014 — 2017 · Hyperion Tech</p>
+                <h3>Full Stack Engineer · IoT Analytics</h3>
+              </header>
+              <p>
+                Construí servicios de ingesta en Go y pipelines de ML para
+                mantenimiento predictivo. Democratizamos insights para clientes
+                industriales en 14 países.
+              </p>
+              <ul>
+                <li>Instrumentación con OpenTelemetry y tableros en Grafana.</li>
+                <li>Despliegues azules/verdes automatizados en Kubernetes.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="proyectos" class="section projects">
+          <div class="section__header">
+            <h2>Casos recientes</h2>
+            <p>Proyectos que sintetizan estrategia, diseño y delivery.</p>
+          </div>
+          <div class="projects__scroller" role="list">
+            <article class="project" role="listitem">
+              <header>
+                <span class="project__tag">AI Ops</span>
+                <span class="project__year">2024</span>
+              </header>
+              <h3>Sentinel Edge</h3>
+              <p>
+                Plataforma de observabilidad predictiva que correlaciona logs,
+                métricas y trazas usando LLMs. Disminuyó incidentes críticos en
+                41% y habilitó respuestas autónomas.
+              </p>
+              <ul>
+                <li>Infraestructura serverless + GPU orquestada con Terraform.</li>
+                <li>SDK multiplataforma para integraciones de socios.</li>
+              </ul>
+            </article>
+            <article class="project" role="listitem">
+              <header>
+                <span class="project__tag">Fintech</span>
+                <span class="project__year">2023</span>
+              </header>
+              <h3>Quantum Ledger</h3>
+              <p>
+                Núcleo bancario basado en eventos con reconciliación en tiempo
+                real y monitoreo antifraude impulsado por grafos.
+              </p>
+              <ul>
+                <li>Latency promedio de 90&nbsp;ms con particionamiento dinámico.</li>
+                <li>Paneles self-service para equipos financieros y legales.</li>
+              </ul>
+            </article>
+            <article class="project" role="listitem">
+              <header>
+                <span class="project__tag">Healthcare</span>
+                <span class="project__year">2022</span>
+              </header>
+              <h3>Pulsar Care</h3>
+              <p>
+                Red de telemedicina colaborativa con interoperabilidad HL7/FHIR,
+                priorización inteligente y seguimiento remoto de pacientes.
+              </p>
+              <ul>
+                <li>Arquitectura Zero Trust y cumplimiento HIPAA.</li>
+                <li>Portal accesible AA para equipos clínicos y familias.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="metodo" class="section method">
+          <div class="section__header">
+            <h2>Método de colaboración</h2>
+            <p>Del descubrimiento al escalado, una ruta clara.</p>
+          </div>
+          <div class="method__grid">
+            <article data-step="step[01]">
+              <h3>01 · Descubrimiento profundo</h3>
+              <p>
+                Workshops con stakeholders, auditoría de sistemas existentes y
+                definición de métricas accionables.
+              </p>
+            </article>
+            <article data-step="step[02]">
+              <h3>02 · Arquitectura evolutiva</h3>
+              <p>
+                Diseño de blueprints iterables, selección de tecnologías
+                sostenibles y planes de transición sin downtime.
+              </p>
+            </article>
+            <article data-step="step[03]">
+              <h3>03 · Delivery disciplinado</h3>
+              <p>
+                Roadmaps medibles, rituales de equipo saludables y prácticas de
+                ingeniería que privilegian la calidad continua.
+              </p>
+            </article>
+            <article data-step="step[04]">
+              <h3>04 · Escalamiento consciente</h3>
+              <p>
+                Observabilidad, feature flags y aprendizaje compartido para
+                expandir producto sin perder estabilidad.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contacto" class="section contact">
+          <div class="contact__card">
+            <h2>Construyamos el próximo release</h2>
+            <p>
+              Escríbeme para explorar consultoría fraccional, liderazgo
+              interino o facilitación de workshops técnicos.
+            </p>
+            <form class="contact__form">
+              <label>
+                Nombre
+                <input type="text" name="nombre" placeholder="Ana, Luis..." />
+              </label>
+              <label>
+                Correo
+                <input type="email" name="correo" placeholder="tuequipo@empresa.com" />
+              </label>
+              <label>
+                Contexto
+                <textarea
+                  name="mensaje"
+                  rows="4"
+                  placeholder="Cuéntame sobre tu reto tecnológico"
+                ></textarea>
+              </label>
+              <button type="submit" class="btn btn--primary">Iniciar conversación</button>
+            </form>
+          </div>
+          <div class="contact__note">
+            <p class="contact__quote">
+              «El software es la coreografía invisible que sostiene experiencias
+              memorables. Hagámoslo visible.»
+            </p>
+            <p class="contact__signature">— Sofía Martínez</p>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p>&copy; 2024 Sofía Martínez. Estrategia y software con intención.</p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
