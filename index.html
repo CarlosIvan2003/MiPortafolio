@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Sofía Martínez | Ingeniera de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container">
+        <div class="brand">
+          <span class="brand__logo">&lt;SM/&gt;</span>
+          <span class="brand__name">Sofía Martínez</span>
+        </div>
+        <nav class="nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container hero__layout">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Ingeniera en software · Full Stack</p>
+            <h1 class="hero__title">
+              Diseño sistemas elegantes y humanos
+              <span class="hero__title--accent">línea a línea</span>
+            </h1>
+            <p class="hero__description">
+              Apasionada por crear productos digitales que combinan estética
+              minimalista con ingeniería de alto rendimiento. Mi código cuenta
+              historias de usuario claras, confiables y medibles.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+              <a class="btn btn--ghost" href="#contacto">Agenda una llamada</a>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__status">
+              <span class="hero__status-dot"></span>
+              Disponible para colaboraciones selectas
+            </div>
+            <pre class="hero__code">
+<span class="c-comment">// arquitectura viva</span>
+const sofia = {
+  especialidad: "Experiencias full stack",
+  stack: ["TypeScript", "React", "Node.js", "Go"],
+  valores: ["Calidad", "Performance", "Accesibilidad"],
+  ubicacion: "CDMX · Remoto global"
+};
+            </pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="timeline section">
+        <div class="container">
+          <h2 class="section__title">Experiencia relevante</h2>
+          <div class="timeline__items">
+            <article class="timeline__item">
+              <span class="timeline__period">2022 — Actualidad</span>
+              <h3 class="timeline__role">Staff Software Engineer · Orion Labs</h3>
+              <p>
+                Lidero la evolución de una plataforma SaaS que sirve a más de 5M
+                de usuarios. Orquesté una migración hacia microfrontends
+                basados en Web Components que redujo el time-to-market en un
+                35% y mejoró el rendimiento Lighthouse a 95.
+              </p>
+            </article>
+            <article class="timeline__item">
+              <span class="timeline__period">2019 — 2022</span>
+              <h3 class="timeline__role">Senior Full Stack Engineer · Nebula</h3>
+              <p>
+                Implementé pipelines CI/CD con GitHub Actions y Kubernetes que
+                disminuyeron el tiempo de despliegue de horas a minutos.
+                Codifiqué componentes accesibles basados en Design Tokens que
+                ahora usa toda la organización.
+              </p>
+            </article>
+            <article class="timeline__item">
+              <span class="timeline__period">2016 — 2019</span>
+              <h3 class="timeline__role">Software Developer · Hyperion Tech</h3>
+              <p>
+                Desarrollé APIs escalables en Go y PostgreSQL, procesando hasta
+                12M de eventos diarios. Creé dashboards de observabilidad con
+                Grafana que redujeron incidentes críticos en un 28%.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="projects section">
+        <div class="container">
+          <h2 class="section__title">Proyectos destacados</h2>
+          <div class="projects__grid">
+            <article class="project-card">
+              <div class="project-card__meta">
+                <span class="project-card__tag">IA aplicada</span>
+                <span class="project-card__year">2024</span>
+              </div>
+              <h3>Atlas QA Copilot</h3>
+              <p>
+                Plataforma de testing autónomo que combina modelos GPT con
+                generación de scripts Cypress. Aceleró la cobertura de pruebas
+                del 42% al 89% en tres sprints.
+              </p>
+              <a href="#" class="project-card__link">Ver caso de estudio →</a>
+            </article>
+            <article class="project-card">
+              <div class="project-card__meta">
+                <span class="project-card__tag">Fintech</span>
+                <span class="project-card__year">2023</span>
+              </div>
+              <h3>Pulse Ledger</h3>
+              <p>
+                Billetera digital modular con arquitectura hexagonal y
+                capacidad multi-tenant. Procesa 18K transacciones por minuto y
+                ofrece paneles en tiempo real para equipos financieros.
+              </p>
+              <a href="#" class="project-card__link">Ver caso de estudio →</a>
+            </article>
+            <article class="project-card">
+              <div class="project-card__meta">
+                <span class="project-card__tag">Salud digital</span>
+                <span class="project-card__year">2022</span>
+              </div>
+              <h3>NovaCare</h3>
+              <p>
+                Ecosistema de telemedicina con WebRTC que integra monitoreo IoT
+                y analítica predictiva. Escaló a 14 países manteniendo SLO de
+                99.95%.
+              </p>
+              <a href="#" class="project-card__link">Ver caso de estudio →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="skills section">
+        <div class="container skills__layout">
+          <div>
+            <h2 class="section__title">Habilidades nucleares</h2>
+            <ul class="skills__list">
+              <li>Arquitecturas escalables · Microservicios · Domain Driven Design</li>
+              <li>Interfaces accesibles · Design Systems · Microfrontends</li>
+              <li>Automatización CI/CD · Observabilidad · SRE mindset</li>
+              <li>Nube híbrida · AWS · GCP · Kubernetes · Terraform</li>
+              <li>Data pipelines · Event streaming · Kafka · Snowflake</li>
+            </ul>
+          </div>
+          <div class="skills__chart">
+            <h3>Stack favorito</h3>
+            <ul>
+              <li><span>Lenguajes:</span> TypeScript, Go, Python, Rust</li>
+              <li><span>Frontend:</span> React, Astro, Tailwind, Storybook</li>
+              <li><span>Backend:</span> Node.js, FastAPI, gRPC, GraphQL</li>
+              <li><span>DevOps:</span> Docker, ArgoCD, Helm, Datadog</li>
+              <li><span>Data:</span> PostgreSQL, Redis, BigQuery</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote section">
+        <div class="container">
+          <blockquote>
+            "El código es mi idioma para conversar con el futuro."
+            <cite>— Sofía Martínez</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact section">
+        <div class="container contact__layout">
+          <div>
+            <h2 class="section__title">Conversemos</h2>
+            <p>
+              Si estás diseñando productos que merecen una experiencia impecable
+              y medible, me encantará sumar mi experiencia estratégica y técnica.
+            </p>
+            <div class="contact__info">
+              <a href="mailto:sofia.dev@ejemplo.com">sofia.dev@ejemplo.com</a>
+              <a href="https://www.linkedin.com/in/sofia-martinez">LinkedIn</a>
+              <a href="https://github.com/sofia-martinez">GitHub</a>
+            </div>
+          </div>
+          <form class="contact__form">
+            <label>
+              Nombre
+              <input type="text" name="nombre" placeholder="Tu nombre" />
+            </label>
+            <label>
+              Correo
+              <input type="email" name="correo" placeholder="tucorreo@dominio.com" />
+            </label>
+            <label>
+              Mensaje
+              <textarea name="mensaje" rows="4" placeholder="Cuéntame sobre tu proyecto"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__layout">
+        <p>&copy; 2024 Sofía Martínez. Creado con pasión por el detalle.</p>
+        <div class="footer__links">
+          <a href="#inicio">Volver al inicio</a>
+          <a href="mailto:sofia.dev@ejemplo.com">Contacto directo</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
